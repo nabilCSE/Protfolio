@@ -1,0 +1,83 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hero_image{
+    background: url(images/developer-portfolio/top-banner.png) no-repeat;
+    height:500px;
+}
+.hero_docs{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding: 2%;
+}
+.heading{
+    line-height: 90px;
+    font-size: 3.1rem;
+}
+.sub_heading{
+    line-height: 25px;
+}
+.heading_peragraph{
+    word-spacing: 2px;
+    line-height: 20px;
+    text-align: justify;
+    color: darkgray;
+}
+.heading span{
+    color: #FFA101;
+}
+.heading_image{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    background-color: red;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: #ffffff ;
+    font-weight: 700;
+    background-image: linear-gradient(to right, lightSalmon, tomato);
+}
+.second_section{
+    background: url(images/developer-portfolio/dream-bg.png) no-repeat;
+    height: 1010px;
+    background-position: right;
+
+}
+.experiences{
+    height: 500px;
+    background: url(images/developer-portfolio/exp-bg.png)no-repeat;
+    background-position: left;
+}
+.experiences h1{
+    margin-left: 25px;
+}
+.half_width{
+    box-shadow: 10px 10px 40px gray;
+    height: 200px;
+    margin-top:70px;
+    background-color: #ffffff;
+}
+.half_width h3{
+   color: lightsalmon;
+}
+.half_width p{
+    color: darkgray;
+    word-spacing: 2px;
+    line-height: 20px;
+    text-align: justify;
+}
+#first_exp{
+    border-left:  7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#second_exp{
+    border-left:  7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
